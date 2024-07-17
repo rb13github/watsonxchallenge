@@ -1,0 +1,53 @@
+version: 1
+task_description: 'information about the IBM Rapid Network Automation Product(RNA)'
+created_by: ritesh bhondwe
+domain: Netork Automation
+seed_examples:
+ - question: What is IBM Rapid Network Automation Product
+   answer: |
+    IBM® Rapid Network Automation is an API-driven tool that automates
+    integrates and connects across the network and business. It facilitates
+    integrates and secures communication between platforms, services and applications
+ - question: What are the features of IBM Rapid Network Automation Product
+   answer: |
+    Automate across the entire stack with thousands of out-of-the-box abstracted action blocks
+    Build automation across applications, security, infrastructure,
+    performance, cloud and ITSM.
+ - question: What are benefits of IBM Rapid Network Automation Product
+   answer: |
+    Normalize full-stack automation and connectivity
+    Level-up your automation resources and inventory
+    Low-code automation development
+ - question: What are the key areas of implementation of RNA
+   answer: |
+    it can be used in many places like business,IT automation
+ - question: What are the key use cases for RNA
+   answer: |
+    Streamlined IT service management,Automated network observability
+    Automated public cloud management,Automated security and compliance operations
+ - question: What are the key technologies used in RNA
+   answer: |
+    K3S,MYSQL,MiniIO and Flux timeseries DB
+ - question: What all connectors available
+   answer: |
+    AWS Cloud,IBM Cloud,Sales force,SevOne etc
+ - question: What flows can be used
+   answer: |
+    Conditional statement, loop,assign etc
+ - question: What all integration is possible
+   answer: |
+    HTTP,Kafka,DB,File etc
+ - question: What all scripts can be used
+   answer: |
+    Ansible,playbook, Chef and puppet
+ - question: Where can be deployect
+   answer: |
+    one any kubernetes supporting platform EKS,GKS,AKS
+ - question: What compute,memory and storage required
+   answer: |
+    depending on the traffic from 2 CPU to 8 CPU,4GB to 8 GB Memory and 10GB to 100 GB storage
+document:
+ repo: https://github.com/rb13github/watsonxchallenge
+ commit: 69c04ed
+ patterns:
+  - README.md
