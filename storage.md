@@ -24,3 +24,5 @@ Safeguard data from breaches and threats while reducing costs and downtime with 
 
 Software
 Delivering data and services across edge, core and clouds
+
+This site was built using [IBM Storage Product Page](https://www.ibm.com/storage).
